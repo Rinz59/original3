@@ -1,0 +1,26 @@
+/* Estilo base para el contenedor principal del contenido */
+.content {
+    padding: 40px; /* Espaciado interno de 20 píxeles */
+    max-width: 1200px; /* Ancho máximo de 1200 píxeles */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    background-color: #00000000; /* Color de fondo negro */
+    color: #fff; /* Color del texto blanco */
+
+    margin-bottom: 110px; /* Ajusta este valor según la altura de tu pie de página */
+    margin-top: 0px;
+}
+/* Estilo para los títulos h2 dentro del contenido */
+.content h2 {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espaciado inferior de 20 píxeles */
+}
+/* Media query para hacer responsive el tamaño de texto y el padding */
+@media (max-width: 768px) {
+    .content {
+        padding: 15px; /* Ajusta el espaciado interno para pantallas más pequeñas */
+        margin-top: -20px;
+    }
+    .content h2 {
+        font-size: 30px; /* Ajusta el tamaño de fuente para títulos h2 en pantallas más pequeñas */
+    }
+}

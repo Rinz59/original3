@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeVault</title>
+    <link rel="stylesheet" href="CSSvideo/ENCABEZADOVIDEO.css">
+    <link rel="stylesheet" href="CSSvideo/CUERPO.css">
+    <link rel="stylesheet" href="CSSvideo/IFRAMES.css">
+    <link rel="stylesheet" href="CSSvideo/INFORMACION ANIME.css">
+    <link rel="stylesheet" href="CSSvideo/LISTA DE EPISODEOS.css">
+    <link rel="stylesheet" href="CSSvideo/CONTENIDOPRINCIPAL.css">
+    <link rel="stylesheet" href="CSSvideo/ICONO.css">
+    <link rel="stylesheet" href="CSSvideo/PIE DE PAGINA 2=.css">
+    <link rel="stylesheet" href="CSS/BUSCADOR ACTUAL.css">
+    <link rel="stylesheet" href="CSS/FONDO WEB.css">
+</head>
+<body>
+
+    <header class="header"><!--EL HEADER ES EL ENCABEZADO -->
+        <a href="index.html" class="logotipo">RINZ</a>
+        <form class="search-form" action="/search" method="GET">
+            <input type="text" name="q" placeholder="Buscar...">
+            
+        </form>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><img src="ICONO/pngwing.com.png" alt="Menú"></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="https://youtu.be/ORE_2woEpeA?si=fTRfLnxYyqvpHNPb">YOUTUBE</a></li>
+                <li><a href="#">DESCARGA</a></li>
+            </ul>
+        </nav>
+    </header><!--EL HEADER ES EL ENCABEZADO -->
+    <div class="content">
+        <h2 id="animeTitle">Anime Title</h2>
+        <div class="anime-info">
+            <img id="animeImage" src="" alt="Anime Image" class="anime-image">
+            <p id="animeDescription" class="anime-description">Anime Description</p>
+        </div>
+        <div class="video-and-episodes">
+            <iframe id="videoFrame" src="" frameborder="0" allowfullscreen style="width: 100%; height: 500px;"></iframe>
+            <div class="episode-container">
+                <ul id="episodeList" class="episode-list"></ul>
+            </div>
+        </div>
+    </div> 
+    <div class="footer">
+        &copy; 2024 Tu Empresa. Todos los derechos reservados.
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="REPETICION.js"></script>
+    <script src="icono.js"></script>
+    <script src="FONDO ANIMADO.js"></script> 
+
+</body>
+</html>

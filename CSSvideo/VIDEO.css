@@ -1,0 +1,13 @@
+#videoFrame {
+    width: 100px; /* Ancho del 100% del contenedor padre */
+    max-width: auto; /* Ancho máximo de 800px, ajustable según tus necesidades */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-top: 100px; /* Margen superior de 10px, ajustable según tus necesidades */
+}
+
+/* Estilo adicional opcional para hacer el video responsivo */
+@media (max-width: 768px) {
+    #videoFrame {
+        max-width: 100%; /* Ajuste adicional para pantallas más pequeñas */
+    }
+}

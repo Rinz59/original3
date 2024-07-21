@@ -1,0 +1,27 @@
+/* Estilo base para el pie de página */
+.footer {
+    position: fixed; /* Fija el pie de página en la parte inferior de la ventana */
+    bottom: 0; /* Asegura que esté pegado al borde inferior */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    background: #053b3f;
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centra el contenido */
+    padding: 20px 0; /* Espaciado interno */
+    z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
+}
+
+/* Estilo para el contenedor principal del contenido */
+.container {
+    margin-bottom: 78px; /* Ajusta este valor según la separación deseada entre el contenido y el pie de página */
+    padding-bottom: 30px; /* Espacio adicional para evitar que el contenido se solape con el footer */
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    margin: 0;
+    padding-bottom: 0px; /* Asegúrate de que sea al menos la altura del footer */
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+}
